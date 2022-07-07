@@ -42,7 +42,7 @@ bool isPrime(int number)
 
 bool IsStrobogrammatic(string s)
 {
-    var rotationMap = new Dictionary<string, string> {{"0", "0"}, {"1", "1"}, {"8", "8"}, {"6", "9"}, {"9", "6"}};
+    var rotationMap = new Dictionary<char, char> {{'0', '0'}, {'1', '1'}, {'8', '8'}, {'6', '9'}, {'9', '6'}};
 
     var left = 0;
     var right = s.Length - 1;
@@ -50,10 +50,10 @@ bool IsStrobogrammatic(string s)
     var check = false;
     while (left <= right)
     {
-        if (!rotationMap.ContainsKey(s[left].ToString()) || !rotationMap.ContainsKey(s[right].ToString()))
+        if (!rotationMap.ContainsKey(s[left]) || !rotationMap.ContainsKey(s[right]))
             return false;
         
-        if (!rotationMap.ContainsKey(s[left].ToString()) && s[left].ToString() != rotationMap[s[right].ToString()])
+        if (!rotationMap.ContainsKey(s[left]) && s[left] != rotationMap[s[right]])
             return true;
 
         left++;
