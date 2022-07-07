@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrobogrammaticNumber", "StrobogrammaticNumber\StrobogrammaticNumber.csproj", "{E594F848-752A-47D3-A547-C9E581E6BD18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E594F848-752A-47D3-A547-C9E581E6BD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E594F848-752A-47D3-A547-C9E581E6BD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E594F848-752A-47D3-A547-C9E581E6BD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E594F848-752A-47D3-A547-C9E581E6BD18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
